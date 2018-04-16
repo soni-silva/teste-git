@@ -67,14 +67,15 @@ git pull
 git config --global user.name "Soni"
 git config --global user.email "sonijsilva@gmail.com"
 
-git add G.txt
-git commit -m "Feito alteração 1"
+git add Git.txt
+git commit -m "Feito alteração 2"
 git push origin master
 git pull
 -------------------------------------------------------------------------------------
 --------------------------------SMART GIT--------------------------------------------
 http://eduorloff.com.br/git/smartgit
 https://stringinarray.wordpress.com/2014/02/06/uso-basico-de-smartgit/
+http://www.kvcodes.com/2016/03/install-uninstall-smartgit-ubuntu/
 
 
 
