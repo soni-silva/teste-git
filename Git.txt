@@ -1,0 +1,94 @@
+
+soni1322
+03 ... s
+
+adiciona o proxy (XXXXXXXXX é a senha)
+
+git config --global http.proxy 1322:XXXXXXXX@ironport.trt12.jus.br:80
+
+Para ver a diferença entre dois pontos do projeto:
+git diff v0.1 v0.2   
+
+
+Quais são os três estados de um repositório com os quais interagimos ao realizar o fluxo de controle com o Git?
+working directory, index e HEAD
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+- Git clone ---- > Traz os arquivos para um diretorio semelhante ao fonte.
+- Para clonar um repositório do Github, basta usar o comando git clone URL, substituindo URL pelo endereço de clonagem do Github mais .git no final.
+Ex: Clonar  https://github.com/jcfonsecagit/repositorio 
+fica:  git clone https://github.com/jcfonsecagit/repositorio.git
+- Para voltar a versão para a v0.1 fica: git checkout v0.1
+
+Ver alteração: git diff v0.1 v0.2
+----------------------------------------------------------------------
+soni-silva
+Username: sonijsilva@gmail.com
+Pass: soni010203
+nome repositorio remoto: teste-git
+URL: https://github.com/soni-silva/teste-git.git
+
+- transformar a pasta em um repositório Git:
+git init 
+
+- Adicionando uma origin no repositório remoto:
+git remote add origin git@github.com:soni-silva/teste-git.git
+
+- Dentro de uma pasta que é um repositório Git, para saber o que eu fiz de alterações:
+git status
+
+- adicionar o arquivo teste.txtao repositório local sempre que for alterado
+git add teste.txt
+
+- OBRIGATÓRIO: realizar o primeiro commit do nosso projeto 
+git config --global user.name "Soni"
+git config --global user.email "sonijsilva@gmail.com"
+
+- primeiro commit do projeto
+git commit -m "Feito alteração 2"
+
+Clonando o projeto criado:
+Caso queira, é possível que o nome da pasta em seu computador seja diferente. 
+Basta especificar o nome desejado no fim do comando:
+git clone https://github.com/soni-silva/teste-git.git [meuprojeto]
+
+-ficou: 
+git clone https://github.com/soni-silva/teste-git.git
+- Local:
+D:\Desenvolvimento\git\repositorios\teste-git
+
+- Envio dos commits locais para o repositório
+git push origin master
+
+- Atualizar com o que esta no repositório remoto:
+git pull
+
+------------------------  RESUMO ----------------------------------------------------
+- primeiro commit:
+git config --global user.name "Soni"
+git config --global user.email "sonijsilva@gmail.com"
+
+git add Git.txt
+git commit -m "Feito alteração 1"
+git push origin master
+git pull
+-------------------------------------------------------------------------------------
+--------------------------------SMART GIT--------------------------------------------
+http://eduorloff.com.br/git/smartgit
+https://stringinarray.wordpress.com/2014/02/06/uso-basico-de-smartgit/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
