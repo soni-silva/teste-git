@@ -1,7 +1,4 @@
 
-soni1322
-03 ... s
-
 adiciona o proxy (XXXXXXXXX é a senha)
 
 git config --global http.proxy 1322:XXXXXXXX@ironport.trt12.jus.br:80
@@ -25,8 +22,8 @@ fica:  git clone https://github.com/jcfonsecagit/repositorio.git
 Ver alteração: git diff v0.1 v0.2
 ----------------------------------------------------------------------
 soni-silva
-Username: sonijsilva@gmail.com
-Pass: soni010203
+Username: XXXXXXXXXXXXXX@XXXXX.XXX
+Pass: XXXXXXXXXXXXXXXX
 nome repositorio remoto: teste-git
 URL: https://github.com/soni-silva/teste-git.git
 
@@ -70,7 +67,7 @@ git pull
 git config --global user.name "Soni"
 git config --global user.email "sonijsilva@gmail.com"
 
-git add Git.txt
+git add G.txt
 git commit -m "Feito alteração 1"
 git push origin master
 git pull
